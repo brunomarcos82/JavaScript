@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title> My first function teste </title>
+
+  <script>
+    function greet_new_user() {
+      Bruno = 1; //
+      alert("O valor da variável Bruno dentro da função é  = " + Bruno)
+    }
+
+    function TesteRetorno() {
+      var sexo;
+      sexo = prompt("Qual o seu sexo? ");
+      return sexo;
+    }
+
+    function testesexo(gender) {
+      if (gender == "Masculino") {
+        document.getElementById("2").innerHTML = "Você pode brincar de SUPER-HERÓI";
+      } else {
+        document.getElementById("2").innerHTML = "VAI BRINCAR DE BONECA";
+      }
+    }
+
+</script>document.getElementById
+</head>
+
+<body>
+  <section id="1">
+
+    <h1> Você Já atingiu a maioridade? </h1>
+    <h2 id="2"> A resposta certa é ...?  </h2>
+
+  </section>
+
+  <script>
+    var Bruno, sexo;
+    Bruno = 10;
+    greet_new_user();
+
+    alert("O valor da variável Bruno FORA da função é  = " + Bruno);
+
+    alert("O sexo informado é: " + TesteRetorno());
+    testesexo(TesteRetorno());
+  </script>
+
+</body>
+
+<!--JavaScript diferentiates  between lower and upper case for variables. -->
+
+</html>

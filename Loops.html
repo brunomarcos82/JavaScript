@@ -1,0 +1,42 @@
+<doctype html>
+  <html>
+
+  <head>
+    <meta name="description" content="Test of loops in JavaScript">
+    <meta name="Author" content="Bruno Marcos">
+    <title> FULL STACK WEB DEVELOPMENT [JavaScripts.Loop.While] </title>
+
+    <!-- Start of creation of Javascript Functions -->
+
+    <script>
+      function TestWhile(controle) {
+        var counter = 1;
+        while (counter <= controle) {
+          document.write("<br> Esta é a repetição de número " + counter + "do total de: " + controle );
+          document.write("\n");
+
+          counter++
+        }
+        document.write("<br> Neste ponto o loop while já terminou e está com o valor =" + counter);
+      }
+    </script>
+  </head>
+
+
+  <body>
+    <section>
+      <h1> FULL STACK WEB DEVELOPMENT [JavaScripts.Loop.While] </h1>
+
+      <!-- Chamada das funções -->
+
+      <script>
+
+        TestWhile(5);
+
+      </script>
+
+    </section>
+
+  </body>
+
+  </html>
